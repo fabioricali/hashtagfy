@@ -1,12 +1,16 @@
-# hashtagfy
-[![npm](https://img.shields.io/npm/v/hashtagfy.svg?style=flat-square)](https://www.npmjs.com/package/hashtagfy) ![Love](https://img.shields.io/badge/love-max-brightgreen.svg?style=flat-square) [![Travis](https://img.shields.io/travis/lmfresneda/hashtagfy.svg?style=flat-square)](https://travis-ci.org/lmfresneda/hashtagfy)
+# hashtagfy2
 
 Convert any text to #hashtag
+
+## Installation
+```
+npm install --save hashtagfy2
+```
 
 ## How to use
 
 ```javascript
-const hashtagfy = require('hashtagfy')
+const hashtagfy = require('hashtagfy2')
 
 const hashtag1 = hashtagfy('Any text');
 // hashtag1 == '#AnyText'
@@ -19,13 +23,3 @@ const hashtag3 = hashtagfy('And the last', { capitalize: false });
 ```
 
 NOTE: The `capitalize` option is optional. Is `true` by default.
-
-## Run test
-
-```
-$ npm install && npm test
-```
-
-## License
-
-MIT © [lmfresneda](https://github.com/lmfresneda)

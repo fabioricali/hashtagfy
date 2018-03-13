@@ -15,8 +15,8 @@ function hashtagfy(text, options) {
 
 	const pascalized = pascalCase(text);
 
-	if(!options.capitalize) return `#${pascalized.toLowerCase()}`;
-	else return `#${pascalized}`;
+	if(!options.capitalize) return '#' + pascalized.toLowerCase();
+	else return '#' + pascalized;
 }
 
 module.exports = hashtagfy;

@@ -1,6 +1,7 @@
 # hashtagfy2
 
-Convert any text to #hashtag
+Convert any text to #hashtag.
+This fork of <a href="https://www.npmjs.com/package/hashtagfy">hashtagfy</a> replace string template with string concatenation.
 
 ## Installation
 ```
